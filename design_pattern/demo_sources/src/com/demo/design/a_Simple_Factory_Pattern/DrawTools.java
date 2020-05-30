@@ -7,6 +7,7 @@ package com.demo.design.a_Simple_Factory_Pattern;
  * 绘制工具
  */
 abstract class DrawTools {
+    private String id;
     /**
      * 绘制
      */

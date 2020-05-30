@@ -11,8 +11,8 @@ package com.demo.design.a_Simple_Factory_Pattern;
  */
 public class Demo {
     public static void main(String []args){
-        DrawTools drawTools = DrawToolsFactory.getDrawTools("square");
-        drawTools.draw();
-        drawTools.erase();
+        int a = 0;
+        int b = 4;
+        int sum = a + b;
     }
 }
